@@ -1,0 +1,42 @@
+
+
+
+
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap'); 
+
+
+/*body grid*/
+
+
+/* estilos header*/
+nav {display: flex; justify-content: center;}
+ul {width: 80%;display: flex; justify-content: space-between;}
+
+
+/* estilos primera seccion: biografia*/
+#primeraSeccion {background-color: yellow;font-family: 'La Belle Aurore', cursive; font-size: 2em;}
+
+
+/* estilos segunda seccion: miembros*/
+#segundaSeccion {background-image: url("/imagenes/nicoGrupal.jpg");background-repeat: no-repeat;background-size: cover;background-attachment: fixed;
+color: white;font-size: 4em;}
+
+/* seccionCancionesDeAnime: tercera seccion*/
+#seccionCancionesDeAnime{ background-image: url("/imagenes/narutoImagen.png");background-size: cover;padding: 10%;}
+
+/*cuarta seccion: playlist*/
+.tituloMyPlaylist {display: flex; justify-content: center;}
+
+/* estilos seccion contacto*/
+.claseContacto {background-color: lemonchiffon; display: inline;position:fixed;bottom:0;right: 0;}
+
+/* estilos footer*/
+.redesSociales {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*ESTILOS OTHER BANDS HTML*/
+.navOtherBands {display: flex; justify-content: space-around;}
